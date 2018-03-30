@@ -2,4 +2,4 @@ sut:
   build: .
   volumes:
     - run_tests.sh:/run_tests.sh
-  command: "cd / && ./run_tests.sh"
+  command: run_tests.sh
